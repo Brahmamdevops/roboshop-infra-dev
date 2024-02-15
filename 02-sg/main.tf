@@ -1,5 +1,5 @@
 module "vpn" {
-  source         = "https://github.com/Brahmamdevops/teeraform-aws-sg.git"
+  source         = "git::https://github.com/daws-76s/terraform-aws-security-group.git?ref=main"
   project_name   = var.project_name
   environment    = var.environment
   sg_description = "SG for VPN"
